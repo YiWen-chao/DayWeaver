@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom</title>
+    <link rel="icon" href="icon-title.ico">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="share.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+TC:wght@100;300;400;500;900&display=swap" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/372814be81.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-set">
+                <img id="logo" src="img/homepage/logo.png" alt="">
+                <img id="company-name" src="img/homepage/company-name.png" alt="">
+            </div>
+            <div class="right-nav">
+                <div class="member-icons">
+                    <div class="icon">
+                        <img src="img/homepage/cart-logo.png" alt="">
+                    </div>
+                    <div class="icon">
+                        <img src="img/homepage/membership-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="nav-link">
+                    <!-- <a href="#">主題企劃</a> -->
+                    <a href="#">所有商品</a>
+                    <a href="#">客製化</a>
+                    <a href="#">針織教學</a>
+                    <a href="#">關於我們</a>
+                    <a href="#">聯絡我們</a>
+                    <div class="search-bar">
+                        <input type="text" placeholder=" search">
+                        <button id="search-btn">搜尋</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="custom-title">
+            <h1>客 製 化 服 務</h1>
+            <h2>Customization</h2>
+            <div class="scroll"><i class="fas fa-angle-double-down fa-xs"></i></div>
+        </div>
+        <div class="line-1">
+            <h1>自己的，要有質感</h1>
+            <img src="img/homepage/fox.png" alt="">
+        </div>
+        <div class="line-2">
+            <h1>一件，就能做。</h1>
+        </div>
+        <script>
+            let line1 = document.querySelector('.line-1');
+            let line2 = document.querySelector('.line-2');
+            window.onscroll = ()=>{
+            let pos = window.scrollY;
+                line1.style.left=`${pos}px`
+                line2.style.right=`${pos}px`
+            }
+        </script>
+        
+        <div class="custom-choices">
+            <div class="sockitem">
+                <div class="sock">
+                    <img src="img/homepage/customized/sock.jpg" alt="客製襪子">
+                </div>
+            </div>
+            
+            <div class="img-row">
+                <div class="item nametag">
+                    <div class="custom-nametag">
+                        <div class="custom-nametag-img">
+                            <img src="img/homepage/customized/custom-nametag.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="T-shirt">
+                        <div class="T-shirt-img">
+                            <img src="img/homepage/customized/T-shirt.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="earing">
+                        <div class="earing-img">
+                            <img src="img/homepage/customized/earing.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="family">
+                    <div class="family-img">
+                        <img src="img/homepage/customized/family.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="bag">
+                    <div class="bag-img">
+                        <img src="img/homepage/customized/custom-bag.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="process">
+            <h1>客製化流程</h1>
+            <h2>Process</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/custom/step-01.png" alt="">
+                 </div>
+
+                <div class="col-3">
+                    <img src="img/custom/step-02.png" alt="">
+
+                </div>
+                <div class="col-3">
+                    <img src="img/custom/step-03.png" alt="">
+                </div>
+                
+                <div class="col-3 finish">
+                    
+                    <div class="txt">
+                        <h3>完成囉!</h3>
+                        <h4>送出訂單!</h4>
+                    </div>
+                    <div class="finish-img">
+                        <img id="lightbulb"src="img/custom/step-04.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>  
+    </main>
+    <footer>
+        <div class="content footer-items">
+            <div class="logo-footer">
+                <img id="logo-foot" src="img/homepage/logo.png" alt="">
+                <img id="company-name-foot" src="img/homepage/company-name.png" alt="">
+            </div>
+            <div class="footer-txt">
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <h3>所有商品</h3>
+                    </div>
+                    <div class="footer-text">
+                        <ul>
+                            <li><a href="">刺繡小物</a></li>
+                            <li><a href="">配飾刺繡</a></li>
+                            <li><a href="">服飾刺繡</a></li>
+                            <li><a href="">居家生活</a></li>
+                            <li><a href="">DIY自己動手做</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <h3>客製化</h3>
+                    </div>
+                    <div class="footer-text">
+                        <ul>
+                            <li><a href="">帆布袋</a></li>
+                            <li><a href="">杯套</a></li>
+                            <li><a href="">衣服</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <h3>針織教學</h3>
+                    </div>
+                    <div class="footer-text">
+                        <ul>
+                            <li><a href="">刺繡針法</a></li>
+                            <li><a href="">十字繡針法</a></li>
+                            <li><a href="">戳戳繡針法</a></li>
+                            <li><a href="">羊毛氈教學</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <h3>會員專區</h3>
+                    </div>
+                    <div class="footer-text">
+                        <ul>
+                            <li><a href="">登入會員</a></li>
+                            <li><a href="">註冊會員</a></li>
+                        </ul>
+                    </div>
+                </div><div class="footer-item">
+                    <div class="footer-title">
+                        <h3>主題企劃</h3>
+                    </div>
+                </div><div class="footer-item">
+                    <div class="footer-title">
+                        <h3>賣家中心</h3>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <h3>聯絡我們</h3>
+                    </div>
+                    <div class="footer-text">
+                        <div class="contact">
+                            E-mail:123456@gmail.com<br>
+                            Tel:02-2356-7799
+                        </div>
+                        <ul id="social-media-icons">
+                            <li><i class="fab fa-facebook-square fa-2x"></i></li>
+                            <li><i class="fab fa-instagram-square fa-2x"></i></li>
+                            <li><i class="fab fa-line fa-2x"></i></li>
+                            <li><i class="fab fa-pinterest-square fa-2x"></i></li>
+                            <li><i class="fab fa-twitter-square fa-2x"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

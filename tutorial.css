@@ -1,0 +1,135 @@
+
+main{
+    padding-top: 100px;
+	background-image: url("img/homepage/background.png");
+	background-attachment: fixed;
+    /* width: 100%; */
+}
+.container{
+    max-width: 1260px;
+    padding: 0 30px 100px 30px;
+}
+.shorts{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.short{
+    text-align: center;
+    margin:40px 30px 0 30px;
+    transition: .5s;
+}
+.short:hover{
+	margin-top: -2px;
+}
+.short img{
+    width: 90px;
+    /* box-shadow: 8px 8px 20px -10px rgba(0,0,0,0.62);
+    border-radius: 50%; */
+}
+.short h2{
+    font-size: 20px;
+    color: rgba(39, 37, 36, 0.678);
+    margin-bottom: 15px;
+
+}
+.fa-arrow-right{
+    display: flex;
+    justify-content: end;
+}
+.embroidery{
+    background-color: rgb(255, 215, 163);
+}
+.reverse{
+    background-color: none;
+}
+/* .item{
+    text-align: center;
+} */
+.item h2{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #001820;
+    font-weight: 700;
+}
+.item p{
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 14px;
+    line-height: 2;
+}
+.item iframe{
+    margin-top: 30px;
+    margin-bottom: 0;
+	
+}
+.item img{
+    width: 30px;
+    padding: 0 10px 0 0 ;
+    margin: 0;
+}
+.itemtitle{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.custom-list h3{
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	color: #353030;
+	margin-bottom: 20px;
+}
+.custom-list h4{
+	text-align: center;
+	color: #353030;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+.custom-list ul{
+	display: flex;
+	justify-content: center;
+}
+.custom-list li{
+	margin: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(150, 150, 150);
+
+}
+.custom-list li:hover{
+	color: #31515c;
+	content:'';
+	transition: .5s;
+
+}
+.custom-list li:after{
+	content:'';
+	flex-grow: 1;
+	border-bottom: 4px solid #353030;
+}
+/* h1{
+    font-size: 26px;
+    margin: auto;
+    width: 120px;
+    color: #353030;
+    padding: 80px 0 20px 0;
+    font-weight:500;
+    font-size: 26px;
+} */
+.container{
+	max-width: 1200px;
+}
+.tutorial-title h1{
+    height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-align: center;
+}
+.tutorial-title h2{
+    font-size: 20px;
+    text-align: center;
+}

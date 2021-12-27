@@ -1,0 +1,96 @@
+
+
+main{
+    padding-top: 100px;
+    position: relative;
+    background-image: url("img/homepage/background.png");
+    background-attachment: fixed;
+}
+
+.fox-img img{
+    width: 320px;
+
+}
+.fox-img{
+    text-align: left;
+    position: absolute;
+    top:220px;
+    right: 160px;
+
+}
+.dinor img{
+    width: 250px;
+}
+.dinor{
+    margin-top: 80px;
+    margin-left: 240px;
+    position: absolute;
+}
+.page-theme{
+    /* display: flex; */
+    margin-left:240px;
+}
+h2{
+    margin-top: 50px;
+    font-size: 26px;
+    color: #353030;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.form{
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-bottom: 100px;
+}
+.row{
+    display: flex;
+}
+.label{
+    border:none;
+    font-size: 20px;
+    
+}
+.message{
+    margin-top: 10px;
+}
+#Nameinput{
+    width: 100px;
+}
+#Emailinput{
+    width: 220px;
+}
+.info-content{
+    background-color: rgba(255, 255, 255, 0.658);
+    width: 600px;
+    border-radius: 20px;
+    padding: 20px;
+}
+textarea{
+    margin-top: 10px;
+    width: 400px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid grey; */
+    border: none;
+}
+.title p{
+    width: 550px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+.info{
+    width: 540px;
+    line-height: 2;
+}
+.info h4{
+    font-weight: 500;
+}
+.inforow{
+	display: flex;
+	justify-content: center;
+}
+
+.title p{
+    font-size: 16px;
+    font-weight: 300;
+}
