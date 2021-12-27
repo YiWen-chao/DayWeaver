@@ -1,167 +1,22 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-a{
-	text-decoration: none;
-}
-/* 設定開始 */
-body{
-	background-color: #f0e6d7;
-	margin: auto;
-
-}
-header{
-	position: fixed;
-	z-index: 2;
-	width: 100%;	
-}
-nav{
-	display: flex;
-	justify-content: space-between;	
-	background-color: #f0e6d7;
-	height: 90px;
-}
-
-.logo-set{
-	display: inline-block;
-	font-size: 0;
-	
-}
-#logo{
-	width: 140px;
-
-}
-
-#company-name{
-	width: 140px;
-	vertical-align:top;/*為何不能middle?*/
-	margin-top: 30px ;
-
-}
-.menu{
-	padding-right: 20px;
-	justify-content: space-between;
-	/* background-color:#f0e6d7b0; */
-	box-shadow: 7px -8px 8px -13px rgba(0,0,0,0.62);
-	border-bottom-left-radius:20px ;
-	
-}
-
-.member-icons{
-	display: flex;
-	justify-content: right;
-	margin: 0 20px 10px ;
-}
-.nav-link{
-	display: flex;
-}
-.nav-link a{
-	font-size: 16px;
-	/* color: white; */
-	color:grey;
-	text-decoration: none;
-	font-weight: 500;
-	margin: 10px 15px;
-
-}
-.icon{
-	height: 25px;
-	width: 25px;
-	border-radius: 25%;
-	background-color: #FEA200;
-	text-align: center;
-	line-height: 2.1;
-	margin: 15px 10px 0 0;
-}
-.icon img{
-	height: 20px;
-	width: 20px;
-	
-}
-.search-bar{
-	margin-top: 5px;
-	margin-left: 25px;
-}
-.search-bar input{
-	border: 2px solid #31515c;
-	border-radius: 20px;
-	background-color: #f0e6d7;
-	font-size:16px ;
-	
-}
-#search-btn{
-	background-color: #31515c;
-	color: #f0e6d7;
-	border: none ;/*清除btn格式*/
-	border-radius: 20px;
-	padding: 3px 9px ;
-	font-size: 14px;
-	position: relative;
-	right: 50px;
-	outline: none;
-	box-shadow: none;
-}
 /* 主視覺 */
 main{
 	padding-top: 70px;
+	background-image: url("background-w.png");
+    background-attachment: fixed;
+
 }
+
 .theme-boject{
-	margin-top: 600px;
 	position: relative;
-}
-.theme-boject img{
 }
 
 #houses{
 	width: 45%;
-	position: fixed;
+	position: relative;
 	left: 25%;
 	top:70px ;
+	
 	
 }
 #company-name-main{
@@ -176,7 +31,7 @@ main{
 	width: 40%;
 	top:26%;
 	left: 5%;
-	z-index: 2;
+	z-index: 4;
 	transition: 1s ease-in-out;
 }
 #fox:hover {
@@ -187,7 +42,7 @@ main{
 	top:20%;
 	width: 19%;
 	right: 15%;
-	z-index: 2;
+	z-index: 4;
 	transition: 1s ease-in-out;
 }
 #duck:hover {
@@ -208,13 +63,14 @@ main{
 	position: absolute;
 	font-size:18px;
 	text-align: center;
-	color:#31515c ;
+	color:rgb(65, 45, 45);
 	top:60%;
 	left: 27%;
 	line-height: 1.5;
-	background-color:#f0e6d77a ;
+	background-color:#f0e6d7b7 ;
 }
 /* 內容 */
+
 .content{
 	width: 85%;
 	margin:auto;
@@ -225,16 +81,21 @@ main{
 }
 .title h2{
 	font-size: 20px;
-	color:#31515c ;
+	color:rgb(65, 45, 45);
 	font-weight:bold;
 	margin-top: 20px;
 }
 .title h3{
 	font-size: 18px;
-	color:#31515c ;
+	color:rgb(65, 45, 45);
 }
 /* 主題活動*/
-.activities h2,h3{
+.activities h2{
+	text-align: center;
+	line-height: 1.5;
+	margin-top: 20px;
+}
+.slogan h3{
 	text-align: center;
 	line-height: 1.5;
 	margin-top: 20px;
@@ -252,10 +113,12 @@ main{
 	display: flex;
 	margin-top: 20px;
 	flex-wrap: wrap;
+
 }
 .item{
-	width:calc(100%/5 - 60px);
-	/* width: 160px; */
+	/* width:calc(100%/5 - 60px); */
+	width: 160px;
+	flex-wrap: wrap;
 	background-color: rgb(255, 247, 245);
 	text-align: center;
 	border-radius: 20px;
@@ -285,7 +148,7 @@ main{
 	text-align: left;
 	font-size: 16px;
 	font-weight: 600;
-	color:#31515c;
+	color:rgb(65, 45, 45);
 	margin-bottom:  10px;
 	margin-left: 10%;
 }
@@ -298,11 +161,19 @@ main{
 	margin-top: 30px;
 	margin-left: 10px;
 	flex-grow: 1;
-	border-top: 1px dashed #31515c;
+	border-top: 1px dashed rgb(65, 45, 45);
+	
 }
-.products.hot{
-	padding-bottom: 40px;
-	border-bottom:1px dashed #31515c;
+.title.new{
+	display: flex;
+	margin-top: 60px;
+}
+.title.new:after{
+	content: '';
+	margin-top: 30px;
+	margin-left: 10px;
+	flex-grow: 1;
+	border-top: 1px dashed rgb(65, 45, 45);
 }
 /*tag*/
 .tag{
@@ -327,15 +198,15 @@ main{
 }
 .trans-free{
 	background-color: #b3dee5;
-	color: #31515c;
+	color: rgb(65, 45, 45);
 }
 .trans-free::after{
-	border-top: 7px solid #117889;
+	border-top: 7px solid rgb(65, 45, 45);
 	border-left: 10px solid #00f0;
 }
 .discount{
 	background-color: #fcb132;
-	color: #31515c;
+	color: rgb(65, 45, 45);
 }
 .discount::after{
 	border-top: 7px solid #9b6713;
@@ -348,7 +219,7 @@ main{
 	position: relative;
 	left: 0;
 	padding: 20px 0 40px 8%;
-	background-color:#31515c;
+	background-color:rgb(65, 45, 45);
 	border-top-right-radius: 30px;
 }
 .fest h2{
@@ -480,7 +351,7 @@ main{
 }
 .custom-item::before{
 	content: '';
-	background-color: #31515c;
+	background-color: rgb(65, 45, 45);
 	position: absolute;
 	left: 0;
 	border-radius: 50%;
@@ -499,11 +370,35 @@ main{
 	margin-bottom: 40px;
 }
 .tutorial{
-	margin-top: 80px;
+	margin-top: 100px;
 }
 .video{
 	display: flex;
 	margin: 20px;
+}
+.shorts{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40px; */
+
+}
+.short{
+    text-align: center;
+    margin:20px 30px 0 30px;
+	display:block ;
+	transition: .5s;
+}
+.short:hover{
+	margin-top: -2px;
+}
+
+.short img{
+    width: 60px;
+}
+.short h2{
+    font-size: 16px;
+    color: rgb(39, 37, 36);
+    margin-bottom: 10px;
 }
 iframe{
 	padding: 0 20px;
@@ -515,75 +410,37 @@ iframe{
 .video-catagory h3{
 	padding-top: 10px;
 	line-height: 1.2;
-	width: 60px;
+	width: 100px;
 	height: 50px;
 	text-align: center;
-	border-radius: 20px;
-	border: 1.5px dotted grey;
 	color: grey;
 	margin-right:40px;
-	box-shadow: 5px 5px 10px -13px rgba(0,0,0,0.62);
 }
-footer{
-	background-image: url(img/homepage/footer-background.png);
+
+.video-description{
+	width: 45%;
+	line-height: 2;
+	margin-top: 20px;
 }
-.footer-items{
-	display: flex;
-	padding-top: 150px;
-	color: #31515c;
-	
+.video-description h3{
+	font-size: 20px;
+	font-weight: 500;
+	color:rgb(65, 45, 45);
+	margin-left: 10px;
 }
-.footer-text a{
-	font-size: 16px;
-	color: #31515c;
-	text-align: start;
+.video-description p{
+	font-weight: 300;
+	margin-left: 10px;
 }
-.footer-text{
-	color:;
+.video-container{
+	margin: 50px;
+	/* border: 2px dotted#31515c; */
+	padding: 20px;
+	border-radius: 20px;
+	/* background-color: #31515c23; */
+
 }
-.line-1{
-    position: fixed;
-    top: 40%;
-    left: -800px;
-    white-space: nowrap;
-	font-size: 50px;
-}
-.line-2{
-    position: fixed;
-    top: 45%;
-    right: -800px;
-    white-space: nowrap;
-	font-size: 50px;
-}
-.banner{
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	align-items:center;
-  }
-  .banner video{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top:0;
-	left:0;
-	object-fit: cover;
-  }
-  .banner h2{
-	position: absolute;
-	top:0;
-	left:0;
-	width: 100%;
-	height: 100%;
-	font-size: 30vw;
+.subtitle h3{
 	text-align: center;
-	line-height:100vh;
-	text-transform:uppercase;
-	background-color: #fff;
-	mix-blend-mode: screen;
-	
-  }
-  
+	margin-top: 20px;
+}

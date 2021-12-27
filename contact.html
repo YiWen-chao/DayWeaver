@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="share.css">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="icon" href="icon-title.ico">
+    <link rel="stylesheet" href="css/share.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" href="img/icon-title.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo-set">
-                <img id="logo" src="img/homepage/logo.png" alt="">
-                <img id="company-name" src="img/homepage/company-name.png" alt="">
+                <a href="Dayweaver.html"><img id="logo" src="img/homepage/logo.png" alt=""></a>
+                <a href="Dayweaver.html"><img id="company-name" src="img/homepage/company-name.png" alt=""></a>
             </div>
             <div class="right-nav">
                 <div class="member-icons">
@@ -28,11 +30,11 @@
                 <div class="menu">
                     <div class="nav-link">
                     <!-- <a href="#">主題企劃</a> -->
-                    <a href="#">所有商品</a>
-                    <a href="#">客製化</a>
-                    <a href="#">針織教學</a>
-                    <a href="#">關於我們</a>
-                    <a href="#">聯絡我們</a>
+                    <a href="product.html">所有商品</a>
+                    <a href="custom.html">客製化</a>
+                    <a href="tutorial.html">針織教學</a>
+                    <a href="aboutus.html">關於我們</a>
+                    <a href="contact.html">聯絡我們</a>
                     <div class="search-bar">
                         <input type="text" placeholder=" search">
                         <button id="search-btn">搜尋</button>
@@ -42,9 +44,13 @@
         </div>
     </header>
     <main>
+        <div class="contact-title">
+            <h1>聯 絡 我 們</h1>
+            <h2>Contact Us</h2>
+        </div>
         <div class="page-theme">
             <div class="title">
-               <h2>聯絡我們</h2> 
+               <h2>聯絡資訊</h2> 
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error ea voluptatem sit odit amet repellat, fugit rem provident veniam?</p>
             </div>
             <div class="info-content">
@@ -86,6 +92,11 @@
             <div class="message">
                 <h4>留言區:</h4>
                 <textarea id="message box"name="mytext"rows="6"cols="40"required placeholder="在此輸入想說的話"></textarea>
+            </div>
+            <div class="submit-button">
+                <label for="">
+                <a href="#"><input id="submit" type="button" value="聯繫我們"></a>
+            </label>
             </div>
         </div>
     </main>

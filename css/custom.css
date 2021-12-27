@@ -2,7 +2,7 @@ nav{
     z-index: 3;
 }
 .custom-title{
-    padding-top: 250px;
+    padding-top: 200px;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
@@ -18,8 +18,9 @@ nav{
     font-size: 20px;
 }
 main{
-    background-image: url("img/background.png");
-    background-attachment: fixed;
+    background-image: url("background.jpg");
+    background-attachment: fixed;    
+    /* padding-top: 100px; */
 }
 
 .line-1{

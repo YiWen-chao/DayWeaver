@@ -1,19 +1,26 @@
 
 main{
-    padding-top: 100px;
+    padding-top: 200px;
 	margin: auto;
 	max-width: 1200px;
-	background-image: url("img/homepage/background.png");
+	background-image: url("background-w.png");
 	background-attachment: fixed;
 }
+.title{
+    text-align: center;
+    
+    font-weight: 700;
+    color: #353030;
+    line-height: 1.5;
+}
 h1{
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 26px;
-    margin: auto;
-    width: 120px;
-    color: rgb(65, 45, 45);
-    padding: 50px 0 30px 0;
-    font-weight:500;
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 50px;
+   
 }
 .products-pack{
     display: flex;

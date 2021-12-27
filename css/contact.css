@@ -1,9 +1,9 @@
 
 
 main{
-    padding-top: 100px;
+    padding-top: 200px;
     position: relative;
-    background-image: url("img/homepage/background.png");
+    background-image: url("background-w.png");
     background-attachment: fixed;
 }
 
@@ -14,8 +14,8 @@ main{
 .fox-img{
     text-align: left;
     position: absolute;
-    top:220px;
-    right: 160px;
+    top:400px;
+    right: 130px;
 
 }
 .dinor img{
@@ -31,11 +31,28 @@ main{
     margin-left:240px;
 }
 h2{
-    margin-top: 50px;
-    font-size: 26px;
+    font-size: 20px;
     color: #353030;
     font-weight: 500;
     margin-bottom: 20px;
+}
+.contact-title{
+    text-align: center;
+    color: #353030;
+    line-height: 1.5;
+}
+.contact-title h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.contact-title h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    
 }
 .form{
     margin-top: 100px;
@@ -77,6 +94,8 @@ textarea{
     width: 550px;
     margin-bottom: 20px;
     line-height: 1;
+    font-size: 16px;
+    font-weight: 300;
 }
 .info{
     width: 540px;
@@ -89,8 +108,17 @@ textarea{
 	display: flex;
 	justify-content: center;
 }
-
-.title p{
-    font-size: 16px;
-    font-weight: 300;
+.submit-button{
+	display:block;
+}
+#submit{
+	border:none;
+	background-color: rgb(65, 45, 45);
+	border-radius: 8px;
+	height: 35px;
+	padding: 0 20px;
+	color: white;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-top: 20px;
 }
