@@ -55,13 +55,14 @@ table {
 body{
 	background-color: #f0e6d7;
 	margin: auto;
-	max-width:1200;
+	max-width:1260px;
     font-family: 'Noto Sans TC', sans-serif;
 }
 header{
 	position: fixed;
+	margin: auto;
 	z-index: 3;
-	width: 100%;	
+	width: 1260px;	
 }
 nav{
 	display: flex;

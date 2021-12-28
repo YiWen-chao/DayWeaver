@@ -262,6 +262,7 @@ main{
 .active-item{
 	width: 40%;
 	text-align: center;
+	position: relative;
 }
 .hover-box{
 	position: relative;
@@ -283,7 +284,12 @@ main{
 }
 .active-item:hover .hover-text{
 	 top:30%;
-
+}
+.active-item p{
+	font-weight: 300;
+}
+.active-item h3{
+	font-weight: 500;
 }
 .custom-item:hover .hover-text{
 	top:30%;
@@ -339,6 +345,12 @@ main{
 	margin: 10px 20px 0 10px;
 	position: relative;
 	overflow: hidden;
+}
+.custom-item h3{
+	font-weight: 500;
+}
+.custom-item p{
+	font-weight: 300;
 }
 
 .custom-item img{
