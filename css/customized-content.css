@@ -256,9 +256,5 @@ select{
 	border-bottom: 4px solid rgb(65, 45, 45);
 }
 .Breadcrumbs{
-	font-size: 14px;
-	color: rgb(65, 45, 45);
-	width: 80%;
-	margin: auto;
-	padding-bottom:30px ;
+
 }
