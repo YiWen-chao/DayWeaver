@@ -1,8 +1,15 @@
+
 nav{
     z-index: 3;
 }
-.custom-title{
+main{
+    background-image: url("background.jpg");
+    background-attachment: fixed;    
     padding-top: 200px;
+    margin: auto;
+}
+.custom-title{
+    
     text-align: center;
     font-size: 40px;
     font-weight: 500;
@@ -17,11 +24,7 @@ nav{
 .custom-title h2{
     font-size: 20px;
 }
-main{
-    background-image: url("background.jpg");
-    background-attachment: fixed;    
-    /* padding-top: 100px; */
-}
+
 
 .line-1{
     position: fixed;
@@ -489,4 +492,8 @@ main{
 .finish{
     display: flex;
     padding-left: 20px;
+}
+.Breadcrumbs{
+    display: flex;
+    margin-left: 120px;
 }

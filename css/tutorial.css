@@ -2,6 +2,7 @@
 main{
 	background-image: url("background-w.png");
 	background-attachment: fixed;
+    padding-top: 200px;
     /* width: 100%; */
 }
 .container{
@@ -122,7 +123,7 @@ main{
 	max-width: 1200px;
 }
 .tutorial-title{
-    padding-top: 200px;
+   
     text-align: center;
     color: #353030;
     line-height: 1.5;
@@ -135,4 +136,8 @@ main{
 .tutorial-title h2{
     font-size: 20px;
     font-weight: 500;
+}
+.Breadcrumbs{
+    display: flex;
+    margin-left: 120px;
 }
