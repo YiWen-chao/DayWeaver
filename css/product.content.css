@@ -236,10 +236,11 @@ iframe{
 	margin-bottom: 5%;
 
 }
-.price{
+.itemprice{
 	text-align: left;
-	font-size: 22px;
-	font-weight: 600;
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 20px;
 	color:rgb(65, 45, 45);
 	margin-bottom:  10px;
 	/* margin-left: 10%; */
