@@ -242,7 +242,7 @@ iframe{
 	font-weight: 600;
 	color:rgb(65, 45, 45);
 	margin-bottom:  10px;
-	margin-left: 10%;
+	/* margin-left: 10%; */
 }
 .hot h2{
 	display: flex;
